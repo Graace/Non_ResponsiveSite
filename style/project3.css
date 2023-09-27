@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style-type: none;
+}
+
+body{
+    background: white;
+    display: inline-block;
+}
+
+body header{
+    background: white;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    padding:10px 20px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.486)  ;
+}
+
+body header nav{
+    display: inline-block;
+    /* padding: 4px 0px; */
+
+}
+
+body header nav .first_div{
+    float: left;
+    
+}
+
+
+
+body header nav .second_div{
+    float: right;
+    margin-left: 50rem;
+   /* padding-left: 1rem; */
+   word-spacing: 1rem;
+    
+}
+
+body header nav ul li{
+    display: inline-block;
+}
+ 
+ 
+body header nav ul li a{
+    display: block;
+    /* padding:0 8px; */
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 4px;
+    /* font-weight: 20; */
+}
+
+body header nav ul li a:hover{
+    background: rgb(206, 205, 205);
+   
+}
+
+#home img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-sizing: border-box;
+}
+
+#home p{
+    text-align: center;
+    /* color: rgb(77, 75, 75); */
+    /* margin-bottom: 100px; */
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-top: -23rem;
+    color: white;
+    margin-left: 10px;
+
+}
+
+#home p span{
+    padding: 10px;
+    background: rgba(7, 7, 7, 0.801);
+    /* margin-left: 20px; */
+}
+
+#project{
+    padding-top:25rem ;
+    /* width:100%;
+    margin-left: 5px; */
+    
+    
+}
+
+#project .flex-container div p{
+    padding-left: 30px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid gray;
+    margin-left: 50px; */
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 0 30px;
+}
+
+
+/* #project .projects{
+    display: inline-block;
+    width: 100%;
+    
+} */
+
+#project .flex-container .building{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 40px;
+    /* position: relative; */
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+} 
+
+#project .flex-container .building img{
+    width: 95%;
+    /* padding-right: 10rem; */
+    justify-content:space-between ;
+    /* position: relative; */
+
+}
+
+#project .flex-container .building .item-5 p{
+    position: relative;
+    margin-top: -213px;
+    padding: 10px 7px;
+    font-size: 18px;
+    background: black ;
+    color: white;
+    width: 34%;
+    text-align: center;
+}
+ 
+/* #project .flex-container .building .item-5 p:first-child{
+    position: relative;
+    margin-top: -213px;
+    padding: 10px 20rem;
+    font-size: 18px;
+    background: black ;
+    color: white;
+    width: 34%;
+    text-align: center;
+} */
+
+
+#about{
+    padding-top: 15rem;
+    padding-bottom:6rem;
+}
+
+#about .flex div p{
+    padding-left: 30px;
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 0 30px;
+}
+
+#about .flex p{
+    font-size: 19px;
+    padding: 15px 30px;
+}
+
+#about .flex .person{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#about .flex .person img{
+    width: 90%;
+    padding-left:30px ;
+    padding-top: 40px;
+    
+    filter: grayscale(75%);
+   
+}
+
+#about .flex .person .p2{
+    font-size: 0;
+
+}
+
+#about .flex .person .p2{
+    opacity: 0.60;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+#about .flex .person .p3{
+    padding-top: 0;
+    font-size: 20px;
+    text-align: left ;
+}
+
+#about .flex .person div a{
+    padding: 8px 8rem ;
+    margin-left: 15px;
+    font-size: 20px;
+    /* width: 82%; */
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: black;
+    background: rgb(233, 232, 232);
+}
+
+#about .flex .person div a:hover{
+    background: #aaa9a9;
+}
+
+#contact{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom:6rem;
+    margin-bottom: 25rem;
+}
+
+#contact .contact p{
+    /* margin: 0 30px; */
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.hr2{
+    border:none ;
+    border-top: 1px solid #eee;
+    margin: 0 5px;
+    
+}
+  
+#contact .contact .p4{
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+#contact .contact form input{
+    width: 96%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    /* margin: 10px 0; */
+    border: 1px solid #85858542;
+    font-size: 16px;
+    background-color: white;
+}
+
+#contact .contact div a{
+    padding: 15px;
+    font-size: 17px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+
+#contact .contact div a:hover{
+    background: rgb(204, 200, 200) ;
+    color: black;
+}
+
+footer{
+    background: black;
+    padding: 32px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: green;
+}

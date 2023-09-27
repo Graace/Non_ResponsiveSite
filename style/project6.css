@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+    list-style-type: none;
+}
+
+body{
+     background: rgb(245, 241, 241);
+    /* background: white; */
+}
+
+body header{
+    background: black;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    padding:8px 20px;
+}
+
+body header nav{
+    display: inline-block;
+}
+
+body header nav ul li{
+    display: inline-block;
+}
+ 
+body header nav ul li a{
+    display: block;
+    padding: 10px 8rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+body header nav ul li a:hover{
+    background:rgb(199, 197, 197);
+    color: black;
+    /* padding: 5px 80px; */
+}
+
+#home{
+    min-width: 75%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../media/coffeehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    box-sizing: border-box;
+    filter: grayscale(50%);
+    background-position: center;
+    font-family: "Inconsolata", sans-serif;
+    margin-bottom: 5rem;
+    
+}
+
+#home .p1{
+    color: white;
+    margin-top: 36rem;
+    font-size: 15px;
+    background: black;
+    padding: 3px 8px;
+}
+
+#home span{
+    text-align: center;
+    font-size:90px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+#home  h5{
+    margin-left: 60rem;
+    background: none;
+    margin-top: 36rem;
+    color: white;
+    font-weight: 20;
+    font-size: 15px;
+}
+
+#about{
+    font-family: "Segoe UI",Arial,sans-serif;
+    /* background-color: #fdf5e6; */
+    max-width: 700px;
+    margin: auto;
+}
+
+#about h5{
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding:0 8px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 15rem;
+}
+
+#about p{
+    padding-top:4rem;
+    font-size: 18px;
+}
+
+#about .p2{
+    font-size: 18.5px;
+    padding:30px 0;
+  
+}
+
+#about .border{
+    border-left: 6px solid #ccc;
+    color: #000!important;
+    background: #f1f1f1;
+    padding: 0.01em 16px;
+}
+
+#about .border p{
+    font-size: 18px;
+    padding-top: 10px ;
+}
+
+#about .border p i{
+    font-weight: 500;
+}
+
+#about img{
+    padding-top: 30px;
+    filter: grayscale(70%);
+    width: 100%;
+}
+
+#about .p3{
+    font-family:"Segoe UI",Arial,sans-serif ;
+    font-size: 18px;
+    font-weight: 480;
+}
+
+#menu{
+    font-family: "Segoe UI",Arial,sans-serif;
+    /* background-color: #fdf5e6; */
+    max-width: 700px;
+    margin: auto;
+    
+}
+
+#menu h5{
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding:0 8px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 5rem 17rem;   
+}
+
+#menu ul{
+    display: flex;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.486)  ;
+    padding: 10px;
+    justify-content: space-between;
+    /* background: #fff; */
+    
+}
+
+#menu ul li a{
+    /* margin: 5rem; */
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+#menu ul li.active{
+    background: rgb(88, 88, 88);
+}
+
+#menu .dishes{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.486)  ;
+    padding: 20px 20px;
+    /* background: #fff; */
+}
+
+
+#menu .dishes h4{
+    font-size: 18px;
+    padding-top: 2rem;
+    color: rgb(53, 51, 51);
+    font-weight: 500;
+}
+
+#menu .dishes p{
+    color:rgb(112, 102, 102);
+    padding: 1rem 0rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#menu img{
+    padding-top: 30px;
+    filter: grayscale(80%);
+    width: 100%;   
+}
+
+#where{
+    font-family: "Segoe UI",Arial,sans-serif;
+    /* background-color: #fdf5e6; */
+    max-width: 700px;
+    margin: auto;
+    
+}
+
+#where h5{
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding:0 8px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    margin:4rem 14rem;
+}
+
+#where .where{
+    padding-bottom: 27rem;
+    font-size: 20px;
+    font-family: 500;
+}
+
+#where .where2{
+    font-size: 17.5px;
+    line-height: 2rem;
+}
+
+#where .where2 span{
+    background: #000;
+    color: #fff;
+    padding: 2px 10px;
+}
+
+
+#where form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    font-size: 18px;
+    border: 1px solid #85858542;
+}
+
+#where form button{
+    background: #000;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+#where form button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#where form button:hover{
+    background: #ccc;
+}
+
+#where form button a:hover{
+    color: #000;
+}
+
+footer{
+    background:#f1f1f1;
+    text-align: center;
+    padding: 80px;
+    font-size: 20px;
+}
+
+footer p{
+    color: black;
+}
+
+footer p a{
+   color: black;
+}
